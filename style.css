@@ -19,7 +19,7 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 
 header {
-   font-family: Comfortaa;
+   font-family: 'Courier New', Courier, monospace;
    width: 900px;
    height: 50px;
    background-color: #ffffff;
