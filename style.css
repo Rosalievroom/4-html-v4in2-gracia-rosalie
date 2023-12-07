@@ -18,28 +18,20 @@
 
 /* add your css here, feel free to use comments and order them logically for better readability */
 
-header {
-   font-family: 'Courier New', Courier, monospace;
-   width: 900px;
-   height: 50px;
-   background-color: #ffffff;
-   margin: auto;
- }
- 
- sub {
-   width: 900px;
-   height: 50px;
-   margin: auto;
-   background-color: #ffffff;
- }
- 
- #bigimage {
-   width: 100%;
-   height: 300px;
- }
- 
- main {
-   width: 900px;
-   background-color: red;
-   margin: auto;
- }
+<header>
+   <h1>Security</h1>
+</header>
+<nav>
+   <p>Navigatie</p>
+</nav>
+<main>
+   <article>
+      <p>Tekst</p>
+   </article>
+   <div id="afbeelding">
+      <img src="1.jpg">
+   </div>
+</main>
+<footer>
+   <p>Contact</p>
+</footer>
