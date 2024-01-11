@@ -22,7 +22,6 @@
    min-height: 1200px; 
    margin: auto; 
    background-color: #ccf4fa; 
-   z-index: 0;
 } 
 
 header { 
@@ -40,11 +39,11 @@ header {
    
    nav { 
       background-color: #ffecb3; 
-      width: 160px; 
+      width: 155px; 
       height: 100px; 
       border-radius: 25px; 
       float: left; 
-      margin: 17px; 
+      margin: 19px; 
       z-index: 2;
    } 
    h2  { 
@@ -65,11 +64,13 @@ header {
       text-align: center;
    }
 
-   area {
-   
+   div {
    width: 950px;
    height: 130px;
    background-color: #e6bffa;
    border-radius: 25px;
+   margin: 17px;
    }
+
+   
   
