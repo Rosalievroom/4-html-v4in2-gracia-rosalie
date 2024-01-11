@@ -17,39 +17,59 @@
 /************************* YOUR SETTINGS *************************/
 
 /* add your css here, feel free to use comments and order them logically for better readability */
-#wrapper {
-  width: 1000px;
-  min-height: 1200px;
-  margin: auto;
-  background-color: #ccf4fa;
-}
-header {
-  background-color: #fededb;
+#wrapper { 
+   width: 1000px; 
+   min-height: 1200px; 
+   margin: auto; 
+   background-color: #ccf4fa; 
+   z-index: 0;
+} 
+
+header { 
+   background-color: #fededb; 
+   width: 950px; 
+   height: 200px; 
+   border-radius: 25px; 
+   margin: 17px; 
+   z-index: 2;
+} 
+   
+   h1  { 
+      text-align:center; 
+   } 
+   
+   nav { 
+      background-color: #ffecb3; 
+      width: 160px; 
+      height: 100px; 
+      border-radius: 25px; 
+      float: left; 
+      margin: 17px; 
+      z-index: 2;
+   } 
+   h2  { 
+      text-align:center; 
+   } 
+   
+   img { 
+      background-color: #e6bffa; 
+      width: 350px; 
+      height: 350px; 
+      border-radius: 25px; 
+      margin: 17px;
+      float: left;
+      z-index: 2;
+   }
+
+   p {
+      text-align: center;
+   }
+
+   area {
+   
    width: 950px;
-   height: 200px;
+   height: 130px;
+   background-color: #e6bffa;
    border-radius: 25px;
-   margin: 10px;
-}
-
-h1  {
-text-align:center;
-}
-
-nav {
-  background-color: #ffecb3;
-  width: 150px;
-  height: 100px;
-  border-radius: 25px;
-  float: left;
-  margin: 17px;
-}
-h2 {
-  text-align:center;
-}
-
-div {
-  background-color: #e6bffa;
-  width: 200px;
-  height: 200px;
-  border-radius: 25px;
-}
+   }
+  
