@@ -54,6 +54,11 @@ header {
      
    } 
 
+   footer {
+      background-color: #e6bffa;
+      border-radius: 40px; 
+   }
+
    img { 
      background-color: #e6bffa;
       width: 400px; 
@@ -93,6 +98,15 @@ header {
       font-size: larger;
       margin-top: -200px;
   margin-bottom: 20px;
+  
+
    } 
 
+ div2 {
+   width: 500px;
+   height: 800px;
+   background-color: #ffecb3;
+   border-radius: 25px;
+   margin: 17px;
+ }
   
