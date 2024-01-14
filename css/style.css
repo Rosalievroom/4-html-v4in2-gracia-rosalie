@@ -37,15 +37,89 @@ header {
       text-align:center; 
    } 
    
-   item { 
+   #digitaleveiligheid { 
       background-color: #ffecb3; 
       width: 155px; 
       height: 100px; 
       border-radius: 25px; 
       margin: 17px;
       float: left;
+      a {
+         color: black;
+         text-decoration: none;
+      }  
+      a:hover {
+         color: purple;
+         text-decoration: none;
+      }
    } 
-  
+   #bedreigingen { 
+      background-color: #ffecb3; 
+      width: 155px; 
+      height: 100px; 
+      border-radius: 25px; 
+      margin: 17px;
+      float: left;
+      a {
+         color: black;
+         text-decoration: none;
+      }  
+      a:hover {
+         color: purple;
+         text-decoration: none;
+      }
+   } 
+
+   #aanvallersenverdedigers { 
+      background-color: #ffecb3; 
+      width: 155px; 
+      height: 100px; 
+      border-radius: 25px; 
+      margin: 17px;
+      float: left;
+      a {
+         color: black;
+         text-decoration: none;
+      }  
+      a:hover {
+         color: purple;
+         text-decoration: none;
+      }
+
+   } 
+   #maatregelen { 
+      background-color: #ffecb3; 
+      width: 155px; 
+      height: 100px; 
+      border-radius: 25px; 
+      margin: 17px;
+      float: left;
+      a {
+         color: black;
+         text-decoration: none;
+      }  
+      a:hover {
+         color: purple;
+         text-decoration: none;
+      }
+   } 
+   
+   #sql-injecties { 
+      background-color: #ffecb3; 
+      width: 155px; 
+      height: 100px; 
+      border-radius: 25px; 
+      margin: 17px;
+      float: left;
+      a {
+         color: black;
+         text-decoration: none;
+      }  
+      a:hover {
+         color: purple;
+         text-decoration: none;
+      }
+   } 
 
    h2  { 
       text-align:center; 
@@ -57,6 +131,8 @@ header {
    footer {
       background-color: #e6bffa;
       border-radius: 40px; 
+      width: 950px;
+      margin: 17px;
    }
 
    img { 
@@ -109,4 +185,5 @@ header {
    border-radius: 25px;
    margin: 17px;
  }
-  
+
+ 
