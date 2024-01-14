@@ -17,6 +17,9 @@
     text-align: center;
  }
 
+ h2 {text-align: center;}
+
+
  #vertrouwlijkheid {
     width: 600px;
     height: 250px;
@@ -63,3 +66,27 @@
    height: 250px;
    margin-right: 25px;
  }
+
+ #sym {
+   width: 600px;
+   height: 250px;
+   background-color: #ffecb3;
+   margin: 25px;
+   border-radius: 40px;
+}
+
+#asym {
+   width: 600px;
+   height: 400px;
+   background-color: #ffecb3;
+   margin: 25px;
+   border-radius: 40px;
+}
+
+#zelf {
+   width: 600px;
+   height: 650px;
+   background-color: #ffecb3;
+   margin: 25px;
+   border-radius: 40px;
+}

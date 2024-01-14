@@ -11,24 +11,77 @@
   
   <header>
     <h1>maatregelen</h1>
+    <h2>4 soorten & encryptie
+    </h2>
   </header>
 
-  <img src="plaatjes/vertrouwelijkheid.png" class="image1" alt="vertrouwelijkheid" title="twee staps authenticatie" width="250" height="250">
+  <img src="plaatjes/prev.png" class="image1" alt="vertrouwelijkheid" title="twee staps authenticatie" width="250" height="250">
 
   <div id="vertrouwlijkheid">
-    text
+    <br>
+    <h2>Preventieve</h2>
+    <b>Preventieve</b> beveiligingsmaatregelen richten zich op het voorkomen van problemen, beginnend bij het veilig maken van hard- en software en het regelmatig updaten ervan. Goed ontworpen en onderhouden systemen hebben minder kwetsbaarheden, waardoor indringers minder kans hebben. Sterke authenticatie en beperkte toegang zijn essentieel. Encryptie van gegevens, regelmatige back-ups en actieve betrokkenheid van gebruikers zijn ook belangrijke preventieve stappen. Bedrijven die persoonsgegevens verwerken, moeten wettelijk verplicht preventieve maatregelen nemen en transparant zijn over de bescherming van gegevens volgens Europese privacywetgeving.
   </div>
 
-  <img src="plaatjes/integriteit.png" class="image2" alt="vertrouwelijkheid" title="integriteit" width="250" height="250">
+  <img src="plaatjes/det.png" class="image2" alt="vertrouwelijkheid" title="integriteit" width="250" height="250">
  
   <div id="integriteit">
-    text
+  <br>
+    <h2>Detectie</h2>
+    Detectiemaatregelen zijn essentieel omdat software altijd kwetsbaarheden bevat die kunnen worden misbruikt. De <b>detectie</b> omvat het monitoren van activiteiten, zoals het blokkeren van gebruikers na herhaalde inlogpogingen. Gegevens over het systeemgebruik worden gelogd om misbruik op te sporen. <b>Firewalls</b> zijn cruciaal, ze controleren binnenkomend netwerkverkeer op kwaadaardige gegevens en kunnen bronnen verifiëren. Anti-malware software scant apparaten op malware met behulp van databases met kenmerken van verschillende malware. App Stores screenen nieuwe software om malware of ongeoorloofde gegevens verzamelen te voorkomen.
+    
   </div>
 
-  <img src="plaatjes/integriteit.png" class="image3" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
+  <img src="plaatjes/rep.png" class="image3" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
 
   <div id="beschikbaarheid">
-    text
+    <br>
+    <h2>Repressie en correctie</h2>
+    Bij een aanval of het ontdekken van malware zijn er maatregelen (<b>repressie</b>) en moet eventuele schade worden hersteld (<b>correctie</b>) nodig, afhankelijk van de aard van de aanval. Anti-malware software kan voldoende zijn voor het verwijderen van malware. Een zwakke DDoS-aanval kan leiden tot tijdelijke vertragingen op een website. In ernstigere gevallen, zoals server uitval door beschadigde data, kan worden overgeschakeld naar een back-upsysteem, mits het beveiligingslek snel wordt gedicht. Bij ernstige problemen moeten systemen mogelijk worden uitgeschakeld om datadiefstal te voorkomen, wat financiële schade en correctiekosten met zich meebrengt.
+  </div>
+
+  <img src="plaatjes/syme.jpg" class="image3" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
+
+  <div id="sym">
+    <br>
+    <h2>Symmetrische encryptie</h2>
+    Encryptie is altijd toegepast en houdt in dat gegevens worden omgezet volgens een algoritme met een <b>sleutel</b>, waardoor het zonder de juiste sleutel niet kan worden teruggedraaid. Het algoritme bepaalt de manier van versleuteling, en de sleutel is essentieel voor het terugkrijgen van de oorspronkelijke gegevens. Dit proces vormt een voortdurend kat-en-muisspel tussen aanvallers en verdedigers. Aanvallers proberen de versleuteling te breken door sleutels te raden, wat wordt bemoeilijkt door complexere sleutels en algoritmes. <b>Symmetrische encryptie</b>, waarbij dezelfde sleutel wordt gebruikt voor zowel versleuteling als ontsleuteling, is een veelgebruikte methode.
+  </div>
+
+  <img src="plaatjes/asyme.jpg" class="image3" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
+
+  <div id="asym">
+    <br>
+    <h2>Asymmetrische encryptie</h2>
+    Symmetrische encryptie, waarbij dezelfde sleutel wordt gebruikt voor versleuteling en ontsleuteling, kan risicovol zijn bij het delen van de sleutel, vooral tijdens het transport van gegevens. Asymmetrische encryptie, ook wel public key encryptie genoemd, biedt hier een oplossing voor. Bij asymmetrische encryptie zijn er twee sleutels: een <b>publieke sleutel</b> voor versleuteling en een <b>geheime sleutel</b> voor ontsleuteling.
+    <br>In dit systeem kiest de ontvanger (bijvoorbeeld Bob) een publieke sleutel en een geheime sleutel. De publieke sleutel wordt gedeeld, maar de geheime sleutel blijft privé. Als de verzender (bijvoorbeeld Alice) een bericht naar Bob wil sturen, gebruikt ze de publieke sleutel van Bob om het bericht te versleutelen. Alleen Bob, met zijn geheime sleutel, kan het versleutelde bericht ontsleutelen. Deze methode voorkomt dat een potentiële aanvaller, zoals Eve, het bericht kan ontcijferen, zelfs als deze de publieke sleutel kent.
+    <br>Public key-encryptie wordt veel gebruikt voor beveiligde data-overdracht, zoals bij HTTPS voor veilige internetverbindingen. Het systeem werkt als een hangslot waarvan de ontvanger de enige sleutel heeft, waardoor alleen de beoogde ontvanger de versleutelde gegevens kan ontsleutelen.
+    
+  </div>
+
+  <img src="plaatjes/doe.png" class="image3" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
+
+  <div id="zelf">
+    <br>
+    <h2>Wat kun je zelf doen?</h2>
+    Gebruikers zijn essentieel in beveiliging; zelfs met sterke systeembeveiliging is een verouderde webbrowser riskant. Wat kun je doen om de veiligheid te vergroten, hieronder lees je het:
+    <br>Neem essentiële beveiligingsmaatregelen onmiddellijk:
+   <ul>
+    <li>Installeer updates direct om kwetsbaarheden te verhelpen.
+      <li>Automatiseer de vergrendeling van apparaten met gezichtsherkenning of vingerafdrukscanner.
+        <li>Gebruik sterke, unieke wachtwoorden en vernieuw ze jaarlijks met een passwordmanager.
+          <li>Maak regelmatig back-ups van belangrijke gegevens en gebruik mogelijkheden voor op afstand wissen.
+            <li>Controleer beveiligde verbindingen bij inloggen op websites en vermijd vreemde URL's.
+              <li>Download apps alleen van officiële bronnen en vermijd verdachte links.
+  </ul>
+    Hier zijn nog meer maatregelen: 
+    <ul>
+   <li> Wees voorzichtig met gedeelde linkjes op social media, WhatsApp en e-mails om phishing te voorkomen.
+    <li>Wees terughoudend met het verlenen van toegang aan apps op je smartphone en overweeg of het echt noodzakelijk is.
+      <li>Installeer en update regelmatig anti-malware- en anti-adware software op je computer voor automatische scans.
+        <li>Versleutel gegevens op externe opslagapparaten, zoals een harde schijf of USB-stick, bijvoorbeeld met BitLocker op Windows.
+          <li>Wees voorzichtig met het verbinden van zelf geprogrammeerde apparaten, zoals Arduino of Raspberry Pi, met het internet vanwege kwetsbaarheid voor hacks. Verwerf voldoende technische kennis over beveiliging voordat je ze verbindt.
+    </ul>
   </div>
 
 

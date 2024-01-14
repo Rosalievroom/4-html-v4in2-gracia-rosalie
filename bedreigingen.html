@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <title>bedreigingen</title>
+        <title>bedreigingen
+        </title>
         <link href="css/bedreigingen.css" rel="stylesheet" type="text/css" />
       </head>
 <body>
@@ -11,25 +12,84 @@
   
   <header>
     <h1>bedreigingen</h1>
+    <h2>welke zwakheden zijn er?</h2>
   </header>
 
-  <img src="plaatjes/vertrouwelijkheid.png" class="image1" alt="vertrouwelijkheid" title="twee staps authenticatie" width="250" height="250">
+  <img src="plaatjes/arch.jpg" class="image1" alt="vertrouwelijkheid" title="twee staps authenticatie" width="250" height="250">
 
   <div id="vertrouwlijkheid">
-    text
+   <h2>Zwakheden in de architectuur</h2>
+    <br>
+    ICT-producten kan je onderscheiden in 3 lagen:
+  <ol>
+   <li>fysieke laag </li>
+    <li> logische laag</li>
+      <li> toepassingenlaag</li>
+  </ol>
+  Er kunnen zwaktes in de architectuur ontstaan door fouten in de ontwerpfase, zoals onvoorziene tekortkomingen in lagen of communicatie tussen lagen. Dit kan bijvoorbeeld leiden tot een <b>lek</b>, zoals het omzeilen van toestemming pop-ups voor het gebruik van de camera op een telefoon. Een ander voorbeeld is SQL-injectie, waarbij een aanvaller de vraag aan een database kan aanpassen om ongeautoriseerde toegang te verkrijgen of gegevens te wijzigen. De tekst benadrukt het belang van het beveiligen van databaseverbindingen en het filteren van gebruikersinput om zwakheden te voorkomen. Ten slotte wordt het belang van het <b>testen</b> van de architectuur, vaak uitgevoerd door ethische hackers, benadrukt om zwakheden op te sporen en te verhelpen voordat kwaadwillenden ze kunnen misbruiken.
   </div>
 
-  <img src="plaatjes/integriteit.png" class="image2" alt="vertrouwelijkheid" title="integriteit" width="250" height="250">
+  <img src="plaatjes/com.jpg" class="image2" alt="vertrouwelijkheid" title="integriteit" width="250" height="250">
  
   <div id="integriteit">
-    text
+  <h2>Zwakheden in de communicatie</h2>
+    <br> Veilige communicatie tussen apparaten, zoals via internet, is essentieel. Bij het invoeren van een wachtwoord op een website via een telefoon moet de overdracht van dit wachtwoord veilig gebeuren, zodat het alleen zichtbaar is voor de specifieke website en niet voor anderen die mogelijk de communicatie onderscheppen. Dit benadrukt het belang van privacy en beveiliging tijdens gegevensoverdracht.
+    <br> Een man-in-the-middle aanval kan de verbinding tussen twee apparaten afluisteren. Wanneer een gebruiker gegevens invoert op een website, kunnen deze ongemerkt worden onderschept door een tussenpersoon die de gegevens direct naar de website doorstuurt. Deze techniek werd vroeger vaak gebruikt door kwaadwillenden bij het opzetten van openbare wifi-netwerken. Onoplettende gebruikers verbinden zich hiermee, zonder zich ervan bewust te zijn dat al hun internetverkeer via de hotspot van de aanvaller verloopt.
+    <br> HTTPS is een beveiligingsprotocol met asymmetrische encryptie, waardoor een veilige verbinding tussen client en server wordt gerealiseerd. Hierdoor wordt het internetverkeer weliswaar afluisterbaar, maar onleesbaar door encryptie. Het gebruik van HTTPS vermindert de kwetsbaarheid voor man-in-the-middle aanvallen. Sinds 2016 is het verplicht voor Apple-apps en sinds 2018 voor Android-apps om HTTPS te gebruiken. De tekst benadrukt dat het veilig is om verbinding te maken met onbekende wifi-netwerken wanneer HTTPS wordt toegepast. <b>SSL-certificaten</b>, aangevraagd bij erkende organisaties, spelen een cruciale rol bij HTTPS-implementatie. Deze certificaten verifiëren de eigenaar van de website en worden vertrouwd door webbrowsers, wat wordt aangegeven met een hangslotje in de adresbalk. De lezer wordt aangeraden om bij het invoeren van persoonlijke gegevens online te controleren of het hangslotje aanwezig is.
+
   </div>
 
-  <img src="plaatjes/integriteit.png" class="image3" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
+  <img src="plaatjes/geb.png" class="image3" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
 
   <div id="beschikbaarheid">
-    text
+    <h2>Zwakheden bij gebruikers</h2>
+    Niet alleen systemen, maar ook mensen vertonen zwakheden , vooral in de omgang met wachtwoorden. Veel mensen kiezen eenvoudige wachtwoorden, wat ze kwetsbaar maakt voor <b>brute force</b> aanvallen, waarbij aanvallers duizenden pogingen per seconde kunnen doen. Websites stellen grenzen aan het aantal inlogpogingen, maar zwakheden in de architectuur kunnen dit omzeilen. Om dit te voorkomen, wordt aangeraden complexe wachtwoorden te gebruiken, met diverse tekens en zonder voor de hand liggende woorden.
+  <br>Enkele tips voor sterke wachtwoorden:
+<ol>
+<li>Gebruik cijfers en speciale tekens.Maak wachtwoorden lang en complex.
+<li>Vermijd voor de hand liggende woorden en persoonlijke informatie.
+<li>Gebruik voor elke website een uniek wachtwoord.
+<li>Wijzig wachtwoorden minimaal één keer per jaar.
+  <li>Vermijd het gebruik van geheime vragen die eenvoudig te achterhalen zijn.
+</ol>
+Het gebruik van een password manager wordt aanbevolen, aangezien deze veilig alle wachtwoorden opslaat en slechts één te onthouden wachtwoord vereist. De password manager kan sterke wachtwoorden genereren en automatisch invullen bij het inloggen op websites. Het delen van toegang tot de password manager met een vertrouwde persoon wordt ook genoemd als een manier om toegang te behouden, zelfs als het wachtwoord wordt vergeten.
+Lijsten van meest gebruikte wachtwoorden, gebaseerd op openbaar gemaakte hacks, bestaan uit eenvoudige wachtwoorden die in de top-50 en zelfs in de top-5 steeds hetzelfde tonen
+Er verschijnen vaak lijsten met wachtwoorden op internet, afkomstig van gehackte systemen. Hackers publiceren deze lijsten om bewustwording te vergroten en mensen aan te sporen hun wachtwoorden te wijzigen. De website 
+<a href="https://haveibeenpwned.com/">https://haveibeenpwned.com/</a> wordt genoemd als een bron voor verschillende wachtwoordinformatie. Soms kunnen hackers gestolen gegevens te koop aanbieden, waardoor persoonlijke informatie, zoals e-mailadressen en wachtwoorden, in handen van kwaadwillende partijen terechtkomt. Deze gegevens worden gebruikt om je te manipuleren voor meer gegevens.
+
   </div>
+
+  <img src="plaatjes/tech.jpg" class="image4" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
+
+  <div id="technieken">
+    <h2> Technieken </h2>
+    <br>
+    Criminelen passen diverse technieken toe om toegang te krijgen tot persoonlijke gegevens. Vaak combineren ze meerdere methoden om hun doel te bereiken. Hier worden drie veelgebruikte technieken besproken:
+    <ol>
+    <li>social engineering</li>
+      <li>phishing</li>
+        <li>malware</li>
+    </ol>
+    Social engineering is geen digitale techniek, maar een methode waarbij aanvallers mensen proberen te manipuleren. Ondanks sterke digitale beveiliging blijft de mens een zwakke schakel. Social engineering gebruikt psychologische trucs, zoals het zich voordoen als iemand anders, om mensen gevoelige informatie te laten vrijgeven. Aanvallen kunnen plaatsvinden via telefoongesprekken of e-mails, en zijn vaak moeilijk te herkennen. Het is belangrijk om bewust te zijn van deze risico's en beschermende maatregelen te nemen.
+    <br>Phishing is een techniek die criminelen in combinatie met social engineering gebruiken. Slachtoffers worden vaak via e-mail naar een valse website gelokt. De e-mail en website zijn zorgvuldig gemaakt, meestal in de vorm van bankrekeningen die beweren dat er een probleem is met de rekening. Om dit op te lossen, wordt gevraagd in te loggen op een nagebootste site. Hier worden echter de inloggegevens onderschept door de aanvallers.    
+  </div>
+
+
+  <img src="plaatjes/mal.jpg" class="image4" alt="vertrouwelijkheid" title="encryptie" width="250" height="250">
+
+
+  <div id="malware">
+    <h2> Malware </h2>
+    <br>
+    Malware, afgeleid van 'malicious' en 'software', verwijst naar kwaadaardige software met schadelijke bedoelingen. Het bestaat in diverse vormen, waaronder Trojan horses, virussen, wormen, spyware, adware en ransomware. Malware wordt vaak ingezet bij aanvallen via <b>zero day kwetsbaarheden</b>, wat duidt op zwakke plekken in software die nog niet bekend zijn bij de ontwikkelaar. Omdat deze zwakheden nog niet ontdekt zijn, kan er geen onmiddellijke oplossing worden uitgebracht.
+    <br>Een Trojan Horse is een vorm van malware die onopgemerkt binnenkomt, vergelijkbaar met het houten paard uit het verhaal van Troje. Het wordt vaak verspreid via e-mailbijlagen, chatberichten of downloads van websites. Wanneer geopend wordt, veroorzaakt het schade aan het systeem of opent het een achterdeur voor hackers. Anders dan sommige malware verspreidt een trojan zichzelf niet; menselijke interactie, zoals het doorsturen van e-mails, speelt vaak een rol bij de verspreiding.
+    <br>In tegenstelling tot een trojan verspreidt een worm zichzelf automatisch door computernetwerken en het internet, vandaar de naam. Hoewel sommige wormen geen schade beogen, vallen ze onder de categorie malware omdat ze zonder gebruikerstoestemming actief zijn. Hoewel sommige wormen geen schade beogen, vereisen ze altijd netwerkcapaciteit, waardoor ze negatieve invloed hebben op computernetwerken.
+    <br>Een virus is geen zelfstandig programma, zoals een worm. In plaats daarvan infecteert een virus bestaande software, vergelijkbaar met hoe een echt virus mensen kan besmetten. Het nestelt zich vaak in uitvoerbare bestanden, die worden gebruikt om software op te starten, en veroorzaakt schade terwijl het zich naar andere computers verspreidt. In tegenstelling hiermee is een worm zelf een compleet computerprogramma dat zich meestal in een bestand nestelt, waarin het zich verbergt. Het onderscheid ligt in het feit dat de worm zelf het volledige programma is, terwijl het bestand slechts de schuilplaats is.
+    <br>Spyware is malware die informatie over computergebruik verzamelt en naar de maker stuurt, inclusief geïnstalleerde programma's, bezochte websites, verzonden e-mails en toetsaanslagen. Het start automatisch op bij het opnieuw opstarten van de computer.
+    <br>Adware, een andere vorm van malware, toont advertenties op de computer. Dit kan legaal zijn, zoals bij shareware-installaties, maar wordt vaak gebruikt voor ongewenste reclames. Adware kan ook technieken van spyware bevatten, waardoor het gerichte reclames aan de gebruiker kan tonen. Hoewel spyware en adware als dezelfde soort malware worden gezien, hebben ze verschillende functies die vaak worden gecombineerd.
+    
+    Ransomware is een specifieke vorm van malware die vaak een systeem binnendringt als een Trojan Horse of via een worm. Eenmaal geïnstalleerd, versleutelt ransomware bestanden op het systeem, waardoor ze ontoegankelijk worden. De gebruiker krijgt vervolgens een melding waarin wordt geëist dat er geld wordt betaald om weer toegang te krijgen tot de versleutelde bestanden. Het wordt afgeraden om het gevraagde geld over te maken, omdat er geen garantie is dat de toegang tot de bestanden daadwerkelijk wordt hersteld. Tijdens ransomware-aanvallen wordt vaak tijdsdruk toegepast, waarbij slachtoffers snel moeten betalen om verdere schade aan hun data te voorkomen. Ondanks politieadvies om niet te betalen, kiezen slachtoffers soms toch voor betaling om mogelijke schade te minimaliseren. Onderzoekers vinden echter steeds vaker zwakke punten in ransomware, waardoor slachtoffers hun bestanden zonder betaling kunnen herstellen.
+      </div>
 
 
 
