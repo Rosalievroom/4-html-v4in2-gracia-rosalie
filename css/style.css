@@ -19,7 +19,7 @@
 /* add your css here, feel free to use comments and order them logically for better readability */
 #wrapper { 
    width: 1000px; 
-   min-height: 1200px; 
+   min-height: 1250px; 
    margin: auto; 
    background-color: #ccf4fa; 
 } 
@@ -29,7 +29,7 @@ header {
    width: 950px; 
    height: 200px; 
    border-radius: 25px; 
-   margin: 17px; 
+   margin: 25px; 
    z-index: 2;
 } 
    
@@ -39,10 +39,10 @@ header {
    
    #digitaleveiligheid { 
       background-color: #ffecb3; 
-      width: 155px; 
+      width: 200px; 
       height: 100px; 
       border-radius: 25px; 
-      margin: 17px;
+      margin: 25px;
       float: left;
       a {
          color: black;
@@ -55,10 +55,10 @@ header {
    } 
    #bedreigingen { 
       background-color: #ffecb3; 
-      width: 155px; 
+      width: 200px; 
       height: 100px; 
       border-radius: 25px; 
-      margin: 17px;
+      margin: 25px;
       float: left;
       a {
          color: black;
@@ -72,10 +72,10 @@ header {
 
    #aanvallersenverdedigers { 
       background-color: #ffecb3; 
-      width: 155px; 
+      width: 200px; 
       height: 100px; 
       border-radius: 25px; 
-      margin: 17px;
+      margin: 25px;
       float: left;
       a {
          color: black;
@@ -89,10 +89,10 @@ header {
    } 
    #maatregelen { 
       background-color: #ffecb3; 
-      width: 155px; 
+      width: 200px; 
       height: 100px; 
       border-radius: 25px; 
-      margin: 17px;
+      margin: 25px;
       float: left;
       a {
          color: black;
@@ -104,23 +104,7 @@ header {
       }
    } 
    
-   #sql-injecties { 
-      background-color: #ffecb3; 
-      width: 155px; 
-      height: 100px; 
-      border-radius: 25px; 
-      margin: 17px;
-      float: left;
-      a {
-         color: black;
-         text-decoration: none;
-      }  
-      a:hover {
-         color: purple;
-         text-decoration: none;
-      }
-   } 
-
+   
    h2  { 
       text-align:center; 
       font-family:'Courier New', Courier, monospace;
@@ -132,7 +116,7 @@ header {
       background-color: #e6bffa;
       border-radius: 40px; 
       width: 950px;
-      margin: 17px;
+      margin: 25px;
    }
 
    img { 
@@ -140,10 +124,8 @@ header {
       width: 400px; 
       height: 400px; 
       border-radius: 25px; 
-      margin: 17px;
+      margin: 25px;
       float: left;
-      z-index: 2;
-
    }
 
    p {
@@ -155,7 +137,7 @@ header {
       height: 800px;
       background-color: #ffecb3;
       border-radius: 25px;
-      margin: 17px;
+      margin: 25px;
       float: left;
       font-family:'Courier New', Courier, monospace;
       font-size: x-large;
